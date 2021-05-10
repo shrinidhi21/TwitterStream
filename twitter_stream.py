@@ -10,10 +10,10 @@ import time
 
 analyzer = SentimentIntensityAnalyzer()
 
-c_key = "j4ZglH2X0Cw7JvR49xhO5jZXZ"
-c_secret = "moPh0K9zH0WbfhnchIBoaUGFNXb1krIe1Fp3W5wu0LBi3P3GqV"
-a_token = "1391580322622414849-6T3BaqQspQ421RLOWCvaz3M1DBx9KS"
-a_secret = "0Q47joCGQ0MCLtTDLn3SqtU2oJzWMUl7JQRLGQPzRj3nL"
+c_key = ""
+c_secret = ""
+a_token = ""
+a_secret = ""
 
 conn = sqlite3.connect("tweet.db")
 c = conn.cursor()
